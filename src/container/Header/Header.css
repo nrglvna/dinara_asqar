@@ -1,0 +1,95 @@
+.app_header{
+
+    background: #89460D;
+    background: -webkit-radial-gradient(ellipse at center, #89460D, #FFFFFF);
+    background: -moz-radial-gradient(ellipse at center, #89460D, #FFFFFF);
+    background: radial-gradient(ellipse at center, #89460D, #FFFFFF);
+    z-index: 0;
+}
+
+.app__header-h1{
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04rem;
+    text-transform: uppercase;
+    line-height: 117px;
+    font-size: 90px;
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip : text;
+    animation: grad 10s linear infinite;
+}
+@keyframes grad {
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+.app__wrapper_info{
+    position:relative;
+}
+
+.app__wrapper_img{
+    border-color: none;
+    border-radius: none;
+    /* Created with https://www.css-gradient.com */
+    background: rgb(182,76,0);
+    background: radial-gradient(circle, rgba(182,76,0,1) 0%, rgba(199,192,184,0) 67%, rgba(237,237,237,0) 93%);
+    bottom: 0;
+
+}
+
+.app__wrapper_img img{
+    position: relative;
+    width: 280px;
+}
+
+.app_wrapper_buttons{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background: none;
+
+    padding: 0rem 0rem;;
+    border: #89460D;
+}
+.custom__button{
+    flex:1;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    margin: 0 1rem;
+    cursor: pointer;
+
+}
+
+
+
+@media only screen and (max-width:1150px){
+    .app_header{
+        
+        background: #89460D;
+        background: -webkit-radial-gradient(ellipse at center, #89460D, #FFFFFF);
+        background: -moz-radial-gradient(ellipse at center, #89460D, #FFFFFF);
+        background: radial-gradient(ellipse at center, #89460D, #FFFFFF);
+
+    }
+    .app__wrapper_img{
+        position: relative;
+        height: 100%;
+        top: 0;
+    }
+
+    .app__header-h1{
+        
+        line-height: 50px;
+        font-size: 50px;
+    }
+
+}
