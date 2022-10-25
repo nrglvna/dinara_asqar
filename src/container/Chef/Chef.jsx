@@ -3,8 +3,8 @@ import React from 'react';
 import './Chef.css';
 
 const Chef = () => (
-  <div>
-    Chef
+  <div className='parallax_1'>
+    
   </div>
 );
 

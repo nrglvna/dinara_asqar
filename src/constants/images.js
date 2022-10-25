@@ -1,5 +1,5 @@
 import bg from '../assets/bg.png';
-import chef from '../assets/chef.png';
+import dinara_asqar_parallax from '../assets/dinara_asqar_parallax.jpeg';
 import G from '../assets/G.png';
 import gallery01 from '../assets/gallery01.png';
 import gallery02 from '../assets/gallery02.png';
@@ -23,7 +23,7 @@ import gericht from '../assets/gericht.png';
 
 export default {
   bg,
-  chef,
+  dinara_asqar_parallax,
   G,
   gallery01,
   gallery02,

@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {GiHamburgerMenu}  from 'react-icons/gi';
-import {MdOutlineRestaurantMenu}  from 'react-icons/md';
+import {AiOutlineClose}  from 'react-icons/ai';
 
 import images from '../../constants/images';
 
@@ -21,14 +21,14 @@ const Navbar = () => {
       <li className='p__opensans'><a href="#contacts">Байланысу</a></li>
     </ul>
     <div className='app_navbar-sign'>
-      <a href="#sign" className='p__opensans '>Курсқа тіркелу</a>
+      <a href="https://wa.me/77717849422" className='p__opensans '>Курсқа тіркелу</a>
     </div>
     <div className='app_navbar-smallscreen' >
       <GiHamburgerMenu color='#ffff' fontSize={27} onClick={()=>setToggleMenu(true)}/>
 
       {toggleMenu &&(
       <div className='app_navbar-smallscreen-overlay flex__center slide-bottom'>
-        <MdOutlineRestaurantMenu fontSize={27} className='overlay_close' onClick={()=>setToggleMenu(false)}/>
+        <AiOutlineClose fontSize={27} className='overlay_close' onClick={()=>setToggleMenu(false)}/>
         <ul className='app_navbar-smallscreen-links'>
             <li className='p__opensans'><a href="#home">Басты бет</a></li>
             <li className='p__opensans'><a href="#about">About</a></li>

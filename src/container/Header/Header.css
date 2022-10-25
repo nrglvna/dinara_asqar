@@ -1,9 +1,6 @@
 .app_header{
 
-    background: #89460D;
-    background: -webkit-radial-gradient(ellipse at center, #89460D, #FFFFFF);
-    background: -moz-radial-gradient(ellipse at center, #89460D, #FFFFFF);
-    background: radial-gradient(ellipse at center, #89460D, #FFFFFF);
+    background: var(--color-black);
     z-index: 0;
 }
 
@@ -74,10 +71,7 @@
 @media only screen and (max-width:1150px){
     .app_header{
         
-        background: #89460D;
-        background: -webkit-radial-gradient(ellipse at center, #89460D, #FFFFFF);
-        background: -moz-radial-gradient(ellipse at center, #89460D, #FFFFFF);
-        background: radial-gradient(ellipse at center, #89460D, #FFFFFF);
+        background: var(--color-black)
 
     }
     .app__wrapper_img{
