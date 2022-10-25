@@ -8,7 +8,7 @@ const AboutUs = () => {
   return(
   <div className='app_about_course' id='about'>
 
-  <h5>Ең ауқымды жоба</h5>
+  <h4>Ең ауқымды жоба</h4>
   <h2>Курс аты</h2>
     <div className='app_about_course_info'>
       <div className='info_for_clients'>

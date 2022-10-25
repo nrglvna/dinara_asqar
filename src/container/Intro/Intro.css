@@ -1,0 +1,44 @@
+.bagdarlama_container{
+    background: var(--color-black);
+    height: auto;
+    padding: 2rem 2rem;
+    display: auto;
+    color: var(--color-golden);
+}
+.bagdarlama_container > div{
+    background: transparent;
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid var(--color-golden);
+}
+
+.bagdarlama_container > div h2{
+    text-align: center;
+    margin: 2rem ;
+    position: relative;
+}
+.context_show{
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    gap: 1rem;
+    padding: 0.5rem 0rem;
+}
+.context_show > h3,ul{
+    border-bottom: 1px solid var(--color-golden);
+}
+.context_show li{
+    list-style: none;
+    padding:0.5rem 0rem;
+}
+.context_show button{
+    background: transparent;
+    color: var(--color-white);
+    border: none;
+    font-size: 2rem;
+}
+@media screen and (max-width: 600px) {
+    .bagdarlama_container > div{
+        width: 100%;
+        padding: 1rem;
+    }
+}

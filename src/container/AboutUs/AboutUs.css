@@ -1,5 +1,6 @@
-h2,h5{
+.app_about_course> h2, .app_about_course > h4{
     text-align: center;
+    padding: 0.5rem;
 }
 .app_about_course{
     background: var(--color-black);
@@ -58,7 +59,7 @@ h2,h5{
         grid-template-columns: 1fr;
     }
     .app_about_course_info > div{
-        width: 80%;
+        width: 100%;
         padding: 2rem;
         margin: 0;
     }
@@ -72,7 +73,7 @@ h2,h5{
         display: grid;
         grid-template-columns: 1fr;
         gap: 1rem;
-        padding: 2rem;
+        padding: 0rem;
     }
     .app_about_course_info > div{
         width: 100%;

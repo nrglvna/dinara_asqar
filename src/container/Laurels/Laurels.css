@@ -1,0 +1,46 @@
+.app_about_me_container{
+    background: var(--color-black);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    color: var(--color-golden);
+    padding: 2rem;
+}
+
+.app_about_me_card{
+    position: relative;
+    padding: 1rem;
+    border: 1px solid var(--color-golden);
+    border-radius: 5%;
+    background-color: rgba(131, 131, 131, 0.15);
+    transition: 0.5s;
+    text-align: center;
+}
+.app_about_me_card:hover{
+    background-color: transparent;
+    cursor: default;
+}
+
+.app_about_me_card >.card_icon{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+
+}
+
+@media screen and (max-width:1000px) {
+
+    .app_about_me_container{
+
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+}
+
+@media screen and (max-width:650px) {
+
+    .app_about_me_container{
+
+        grid-template-columns: 1fr 1fr;
+
+    }
+}

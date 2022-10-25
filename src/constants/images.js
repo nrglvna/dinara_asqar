@@ -1,6 +1,6 @@
 import bg from '../assets/bg.png';
 import dinara_asqar_parallax from '../assets/dinara_asqar_parallax.jpeg';
-import G from '../assets/G.png';
+import logo_parallax from '../assets/parallax_logo.jpeg';
 import gallery01 from '../assets/gallery01.png';
 import gallery02 from '../assets/gallery02.png';
 import gallery03 from '../assets/gallery03.png';
@@ -24,7 +24,7 @@ import gericht from '../assets/gericht.png';
 export default {
   bg,
   dinara_asqar_parallax,
-  G,
+  logo_parallax,
   gallery01,
   gallery02,
   gallery03,
