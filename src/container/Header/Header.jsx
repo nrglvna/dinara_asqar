@@ -3,6 +3,8 @@ import React from 'react';
 import './Header.css';
 import {images} from '../../constants';
 import {SubHeading} from '../../components';
+
+
 const Header = () => (
   <div className='app_header app__wrapper section__padding ' id  = 'home'>
     <div className='app__wrapper_info'>
