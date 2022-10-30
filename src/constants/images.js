@@ -5,6 +5,8 @@ import gallery01 from '../assets/gallery01.jpeg';
 import gallery02 from '../assets/gallery02.jpeg';
 import gallery03 from '../assets/gallery03.jpeg';
 import gallery04 from '../assets/gallery04.jpeg';
+import gallery05 from '../assets/gallery05.jpeg';
+import gallery06 from '../assets/gallery06.jpeg';
 import knife from '../assets/knife.png';
 import logo from '../assets/scope_logo.png';
 import menu from '../assets/menu.png';
@@ -13,10 +15,11 @@ import spoon from '../assets/spoon.svg';
 import welcome from '../assets/dinara_asqar.png';
 import findus from '../assets/findus.png';
 import laurels from '../assets/laurels.png';
-import award01 from '../assets/award01.png';
-import award02 from '../assets/award02.png';
-import award03 from '../assets/award03.png';
-import award05 from '../assets/award05.png';
+import case01 from '../assets/case01.jpg';
+import case02 from '../assets/case02.jpg';
+import case03 from '../assets/case03.jpg';
+import case04 from '../assets/case04.jpeg';
+import case05 from '../assets/case05.jpg';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
@@ -29,6 +32,8 @@ export default {
   gallery02,
   gallery03,
   gallery04,
+  gallery05,
+  gallery06,
   knife,
   logo,
   menu,
@@ -37,10 +42,11 @@ export default {
   welcome,
   findus,
   laurels,
-  award01,
-  award02,
-  award03,
-  award05,
+  case01,
+  case02,
+  case03,
+  case04,
+  case05,
   sign,
   quote,
   gericht,

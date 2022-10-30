@@ -3,7 +3,8 @@
     padding: 0.5rem;
 }
 .app_about_course{
-    background: var(--color-black);
+    background: url('../../assets/bg.png');
+    object-fit: cover;
     height: auto;
     padding: 2rem 2rem;
     display: auto;

@@ -3,7 +3,7 @@ import {images} from '../../constants';
 import {BsArrowLeftShort,BsArrowRightShort} from 'react-icons/bs'
 import './Slider_photo.css';
 
-const galleryImages = [images.gallery01, images.gallery02, images.gallery03,images.gallery04];
+const galleryImages = [images.gallery01, images.gallery02, images.gallery03,images.gallery04, images.gallery05, images.gallery06];
 
 const Slider_photo = () => {
 

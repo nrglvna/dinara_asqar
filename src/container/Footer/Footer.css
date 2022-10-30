@@ -1,0 +1,18 @@
+.app__footer{
+    background: var(--color-black);
+    opacity: 0.95;
+    position: relative;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    color: var(--color-gold);
+    padding: 2rem;
+}
+
+.app__footer > img{
+    width: 200px;
+}
+.app__footer__icon{
+color:var(--color-golden);
+font-size: xx-large;
+}

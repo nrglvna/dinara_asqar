@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import {GiHamburgerMenu}  from 'react-icons/gi';
 import {AiOutlineClose}  from 'react-icons/ai';
 
@@ -7,7 +7,7 @@ import images from '../../constants/images';
 import './Navbar.css';
 
 const Navbar = () => {
-  const [toggleMenu, setToggleMenu] = React.useState(false);
+  const [toggleMenu, setToggleMenu] = useState(false);
   return(
   <nav className='app_navbar'>
     <div className='app_navbar-logo'>

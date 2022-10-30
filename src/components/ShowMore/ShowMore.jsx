@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { BsPlusCircleFill } from "react-icons/bs";
-import {AiFillCloseCircle } from "react-icons/ai";
 const ShowMore = ({taqyryp,text1,text2,text3,text4}) => {
 
     const [isShowMoreShown,setShowMoreShown]=useState(false)
@@ -10,7 +9,7 @@ const ShowMore = ({taqyryp,text1,text2,text3,text4}) => {
     return(
         
         <div className='context_show'>
-            <button onClick={togglebtn}>{isShowMoreShown ? <AiFillCloseCircle />: <BsPlusCircleFill />}</button>
+            <button onClick={togglebtn}>{isShowMoreShown ? <BsPlusCircleFill className='clicked' />: <BsPlusCircleFill />}</button>
             {isShowMoreShown ? 
             
             <ul>
