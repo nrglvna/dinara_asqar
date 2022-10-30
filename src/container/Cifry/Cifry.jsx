@@ -1,8 +1,5 @@
 import React from 'react';
 import {AiFillInstagram} from 'react-icons/ai';
-import {MdLibraryBooks} from 'react-icons/md';
-import {FaUserFriends} from 'react-icons/fa';
-import CountUp from 'react-countup';
 import images from '../../constants/images';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
