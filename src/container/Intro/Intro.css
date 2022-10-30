@@ -1,7 +1,7 @@
 
 .bagdarlama_container{
     background-image: url('../../assets/bg.png');
-    object-fit: cover;
+    background-size: cover;
     height: auto;
     padding: 2rem 2rem;
     display: auto;
