@@ -1,6 +1,6 @@
 .app_about_course> h2, .app_about_course > h4{
     text-align: center;
-    padding: 0.5rem;
+    padding: 1rem;
 }
 .app_about_course{
     background: url('../../assets/bg.png');
@@ -9,7 +9,22 @@
     padding: 2rem 2rem;
     display: auto;
     color: var(--color-golden);
+    position: relative;
 }
+
+.app_about_course::before{
+    content: '';
+    display: block;
+    background: rgb(138,127,52);
+    background: linear-gradient(0deg, rgba(138,127,52,0) 0%, rgba(12,12,12,1) 99%);
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
 
 .app_about_course_info{
     display: grid;
@@ -45,9 +60,13 @@
 .details{
     display: column;
     gap: 1rem;
+    padding: 0rem;
 }
 .details > div{
     border-bottom: 1px solid var(--color-golden);
+    padding: 1rem;
+    font-size: larger;
+    text-transform: uppercase;
 }
 
 .details-icon{

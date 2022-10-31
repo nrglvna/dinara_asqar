@@ -4,7 +4,6 @@ import './Header.css';
 import {images} from '../../constants';
 import {SubHeading} from '../../components';
 import {FaAward} from 'react-icons/fa';
-import {MdLibraryBooks} from 'react-icons/md';
 import {FaUserFriends} from 'react-icons/fa';
 import CountUp from 'react-countup';
 
@@ -12,7 +11,7 @@ import CountUp from 'react-countup';
 const Header = () => (
   <div className='app_header app__wrapper section__padding ' id  = 'home'>
     <div className='app__wrapper_info'>
-      <SubHeading title= 'Chase the new opportunities'/>
+      <SubHeading title= 'Жаңа мүмкіндіктерге ұмтыл'/>
       <h1 className='app__header-h1'>
         DINARA ASQAR
       </h1>
@@ -24,8 +23,8 @@ const Header = () => (
         <CountUp
           className='countup'
           start={0}
-          end={200}
-          duration={2.75}
+          end={5}
+          duration={6}
           useEasing={true}
           useGrouping={true}
           separator=" "
@@ -34,28 +33,7 @@ const Header = () => (
           prefix="+ "
           suffix=" "
          />
-          <p>+6 жыл</p>
-        </div>
-      </div>
-      
-
-      <div className="app_about_me_card">
-        <div className="card_icon"><MdLibraryBooks/></div>
-        <div className="card_content">
-        <CountUp
-          className='countup'
-          start={0}
-          end={200}
-          duration={2.75}
-          useEasing={true}
-          useGrouping={true}
-          separator=" "
-          decimals={0}
-          decimal=""
-          prefix="+ "
-          suffix=" "
-         />
-          <p>+6 жыл</p>
+          <p>тәжірибе</p>
         </div>
       </div>
       
@@ -65,8 +43,8 @@ const Header = () => (
         <CountUp
           className='countup'
           start={0}
-          end={200}
-          duration={2.75}
+          end={300}
+          duration={6}
           useEasing={true}
           useGrouping={true}
           separator=" "
@@ -75,7 +53,7 @@ const Header = () => (
           prefix="+ "
           suffix=" "
          />
-          <p>+6 жыл</p>
+          <p>білім алған шәкірттер</p>
         </div>
       </div>
 

@@ -10,37 +10,6 @@
     position: relative;
 }
 
-.bagdarlama_container::before{
-    content: '';
-    display: block;
-    background: rgb(138,127,52);
-    background: linear-gradient(0deg, rgba(138,127,52,0) 0%, rgba(12,12,12,1) 99%);
-    height: 100px;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 100;
-}
-.bagdarlama_container::after{
-    content: '';
-    display: block;
-    background: rgb(138,127,52);
-    background: rgb(138,127,52);
-background: linear-gradient(180deg, rgba(138,127,52,0) 0%, rgba(12,12,12,1) 99%);
-    height: 50px;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 100;
-}
-
-
-
 .bagdarlama_container > div{
     background: transparent;
     padding: 2.4rem 5rem;

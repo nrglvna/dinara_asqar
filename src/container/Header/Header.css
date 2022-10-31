@@ -87,6 +87,7 @@
     display:flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 100%;
 }
 
 .app_about_me_card >.card_icon{
@@ -106,7 +107,9 @@
     -webkit-background-clip: text;
 }
 .app_about_me_card> .card_content p{
-font-size: 24px;
+font-size: 20px;
+
+
 } 
 
 
