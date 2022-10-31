@@ -4,13 +4,14 @@
     background-image:url('../../assets/dinara_asqar_parallax.jpeg');
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+    position: fixed;
     height: 400px;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.548);
 }
 
 @media screen and (max-width:650px) {
-    .parallax_2{
-    background-attachment: fixed;
+    .parallax_1{
+    position: fixed;
+    background-size: 400px 184px ;
 }
 }
