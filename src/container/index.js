@@ -5,8 +5,8 @@ import Footer from './Footer/Footer';
 import Gallery from './Gallery/Gallery';
 import Header from './Header/Header';
 import Intro from './Intro/Intro';
-import Cifry from './Cifry/Cifry';
-import SpecialMenu from './Menu/SpecialMenu';
+import Cases from './Cases/Cases';
+import Paketter from './Paketter/Paketter';
 
 export {
   AboutUs,
@@ -16,6 +16,6 @@ export {
   Gallery,
   Header,
   Intro,
-  Cifry,
-  SpecialMenu,
+  Cases,
+  Paketter,
 };

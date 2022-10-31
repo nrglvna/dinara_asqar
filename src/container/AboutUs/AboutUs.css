@@ -33,7 +33,7 @@
 }
 
 .app_about_course_info > div{
-    background: rgba(129, 127, 127, 0.377);
+    background: rgba(129, 127, 127, 0.055);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
@@ -65,8 +65,12 @@
 .details > div{
     border-bottom: 1px solid var(--color-golden);
     padding: 1rem;
-    font-size: larger;
+    font-size:medium;
     text-transform: uppercase;
+}
+
+.details > div> small{
+    color: var(--color-white);
 }
 
 .details-icon{

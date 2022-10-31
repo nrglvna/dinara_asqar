@@ -3,7 +3,7 @@ import {images} from '../../constants';
 import {BsArrowLeftShort,BsArrowRightShort} from 'react-icons/bs'
 import './Slider_photo.css';
 
-const galleryImages = [images.gallery01, images.gallery02, images.gallery03,images.gallery04, images.gallery05, images.gallery06];
+const galleryImages = [images.gallery01, images.gallery02, images.gallery07,images.gallery04, images.gallery05, images.gallery06,images.gallery08];
 
 const Slider_photo = () => {
 
@@ -12,20 +12,19 @@ const Slider_photo = () => {
   const scroll = (direction)=>{
     const {current} = scrollRef;
     if(direction === 'left'){
-      current.scrollLeft -= 300;
+      current.scrollLeft -= 340;
     }
     else
     {
-      current.scrollLeft +=300;
+      current.scrollLeft +=340;
     }
   }
 
   return(
     <div className="app__gallery flex__center">
       <div className="app__gallery-content">
-        <h1 className='headtext__cormorant'>Галлерея</h1>
-        <p className='p__opensans' style={{color: '#AAA',marginTop:'2rem'}}>Lorem ipsum drtyuiolk,mjnc jrenfopwajedrnfbpiwe wiedfbpawidjfbpwdjierf</p>
-        <button type = "button" className='custom__button'>Тағы көру</button>
+        <h4 className='headtext__cormorant'>СЕРТИФИКАТТАУ КЕШІ</h4>
+        <a href='https://instagram.com/dinara_asqar.kz?igshid=YmMyMTA2M2Y=' className='custom__button' >Тағы көру</a>
       </div>
 
       <div className="app__gallery-images">

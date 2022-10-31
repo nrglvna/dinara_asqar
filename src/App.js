@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { AboutUs, Chef, Video, Footer, Gallery, Header, Intro, Cifry, SpecialMenu} from './container';
+import { AboutUs, Chef, Video, Footer, Gallery, Header, Intro, Cases, Paketter} from './container';
 import { Navbar } from './components';
 import Slider_photo from './container/Slider_photo/Slider_photo';
 import './App.css';
@@ -11,9 +11,9 @@ const App = () => (
     <Header />
     <AboutUs />
     <Intro />
-    <SpecialMenu />
+    <Paketter />
     <Chef />
-    <Cifry />
+    <Cases />
     <Gallery />
     <Slider_photo/>
     <Video/>

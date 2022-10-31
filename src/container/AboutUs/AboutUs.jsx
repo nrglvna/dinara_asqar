@@ -16,22 +16,20 @@ const AboutUs = () => {
           
          <div>
           <h4><GoVerified className='details-icon'/> Жаңадан үйренгісі келетін жандарға </h4>
-          <small className='text-light'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</small>
+          <small className='text-light'>Студенттер, үйде отырған аналар, қосымша табыс тапқысы келетін барлық жандарға қажет мамандық. 
+ ТАРГЕТОЛОГ-  БҮГІНГІ ТАҢДА ЕҢ СҰРАНЫСҚА ИЕ МАМАНДЫҚ. ТАРГЕТТІ ЖАҚСЫ ИГЕРСЕҢІЗ, СІЗ БІРДЕН ЖОБАЛАР АЛЫП, ТАБЫСТЫ ЖҰМЫСҚА КІРІСІП КЕТЕ АЛАСЫЗ.
+</small>
          </div>
           
           <div>
           <h4><GoVerified className='details-icon'/> Кәсіпкерлерге </h4>
-          <small className='text-light'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</small>
+          <small className='text-light'>СІЗ ТАРГЕТ ҚҰРАЛЫН ПАЙДАЛАНУ АРҚЫЛЫ КӘСІБІҢІЗДІҢ АЙНАЛЫМЫН ҰЛҒАЙТУ БОЙЫНША НАҚТЫ ҚАДАМДАРЫН АЛЫП, БІРДЕН 2 ЕСЕГЕ АҚША АЙНАЛЫМЫН АРТТЫРА АЛАСЫЗ. КӘСІБІҢІЗГЕ ТОЛЫҚ АНАЛИЗ ЖАСАП, КЕЗ-КЕЛГЕН ДАҒДАРЫСҚА ДАЙЫН БОЛЫП, НАРЫҚТАН ӨЗ КЛИЕНТТЕРІҢІЗДІ ТАБАСЫЗ.
+</small>
          </div>
           
           <div>
           <h4><GoVerified className='details-icon'/> Кәсіби деңгейге өткісі келетін жандарға </h4>
-          <small className='text-light'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</small>
-         </div>
-         
-          <div>
-          <h4> <GoVerified className='details-icon'/>freelance</h4>
-          <small className='text-light'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</small>
+          <small className='text-light'> СІЗ ТЕРЕҢ АНАЛИТИКА ЖАСАЙ АЛАТЫН, ҮЛКЕН КОМПАНИЯЛАР ҮШІН ДАМУ СТРАТЕГИЯСЫН ҚҰРАТЫН, КҮРДЕЛІ ЖАҒДАЙЛАРДА ТИІМДІ ШЕШІМ ҚАБЫЛДАЙ АЛАТЫН КӘСІБИ MAMAH БОЛАСЫЗ. НӘТИЖЕСІНДЕ, ӨЗ ҚЫЗМЕТІҢІЗДІ НАРЫҚТА 2 ЕСЕГЕ АРТТЫРЫП, ҚОСЫМША ҚАБІЛЕТТЕРІҢІЗДІ МОНЕТИЗАЦИЯЛАЙ АЛАСЫЗ.</small>
          </div>
           </article>
         </div>
@@ -53,7 +51,16 @@ const AboutUs = () => {
           
           <div>
           <h4><GoVerified className='details-icon'/> ӘР МОДУЛЬ САЙЫН ДЕҢГЕЙІҢІЗДІ ТЕКСЕРУГЕ АРНАЛҒАН ТЕСТТЕР</h4>
-          <small className='text-light'>шығынсыз клиент жинау;</small>
+          <small className='text-light'></small>
+         </div>
+
+         <div>
+          <h4><GoVerified className='details-icon'/> пайдалы плюстер</h4>
+          <small className='text-light'>ШЫҒЫНСЫЗ КЛИЕНТ ЖИНАУ;
+            REELS ТҮСІРУГЕ АРНАЛҒАН ИДЕЯ+ 15 ВИДЕО САБАҚ;
+            КЕЙІССІЗ КЛИЕНТ ТАУЫП, АЙЛЫҚ ПРОЕКТИЛЕРМЕН ЖҰМЫС ЖАСАУ ЖОЛДАРЫ;
+            5 МИНУТТА 9000 КЛИЕНТ ЖИНАУ ФИШКАСЫ;
+            ӨЗ КӘСІБІҢІЗДІҢ ТАБЫСЫН 10 ЕСЕГЕ АРТТЫРУ СТРАТЕГИЯСЫ;</small>
          </div>
   
           </article>

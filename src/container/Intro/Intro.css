@@ -8,6 +8,7 @@
     color: var(--color-golden);
     opacity: 1;
     position: relative;
+    font-size: medium;
 }
 
 .bagdarlama_container > div{
@@ -30,10 +31,12 @@
 }
 .context_show > h3,ul{
     border-bottom: 1px solid var(--color-golden);
+    font-size: large;
 }
 .context_show li{
     list-style: none;
     padding:0.5rem 0rem;
+    color: var(--color-white);
 }
 .context_show button{
     background: transparent;
@@ -44,7 +47,7 @@
 
 .clicked {
     transform: rotate(45deg);
-    transition: 1s ease-in; 
+    transition: 1s ease; 
 }
 
 @media screen and (max-width: 600px) {
