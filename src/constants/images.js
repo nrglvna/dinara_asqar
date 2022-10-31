@@ -24,7 +24,7 @@ import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
 
-export default {
+const images =  {
   bg,
   dinara_asqar_parallax,
   logo_parallax,
@@ -51,3 +51,5 @@ export default {
   quote,
   gericht,
 };
+
+export default images;
