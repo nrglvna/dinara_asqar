@@ -11,7 +11,7 @@
 
 @media screen and (max-width:650px) {
     .parallax_1{
-    position: fixed;
-    background-size: 400px 184px ;
+    background-attachment: fixed;
+    background-size: cover ;
 }
 }
