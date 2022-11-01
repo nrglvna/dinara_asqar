@@ -3,27 +3,13 @@
     padding: 1rem;
 }
 .app_about_course{
-    background: var(--color-black);
+    background: var(--color-white);
     height: auto;
     padding: 2rem 2rem;
     display: auto;
     color: var(--color-golden);
     position: relative;
 }
-
-.app_about_course::before{
-    content: '';
-    display: block;
-    background: rgb(138,127,52);
-    background: linear-gradient(0deg, rgba(138,127,52,0) 0%, rgba(12,12,12,1) 99%);
-    height: 100px;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 100;
-}
-
 
 .app_about_course_info{
     display: grid;
@@ -32,18 +18,12 @@
 }
 
 .app_about_course_info > div{
-    background: rgba(129, 127, 127, 0.055);
+    background: rgb(0, 0, 0);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: 1s;
 }
-.app_about_course_info > div:hover{
-    background: transparent;
-    border-color: var(--color-golden);
-    cursor: default;
-}
-
 .app_about_course_info > div h3{
     text-align: center;
     margin: 2rem ;
