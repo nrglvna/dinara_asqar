@@ -7,6 +7,7 @@ import Header from './Header/Header';
 import Intro from './Intro/Intro';
 import Cases from './Cases/Cases';
 import Paketter from './Paketter/Paketter';
+import Otzyv from './Otzyv/Otzyv';
 
 export {
   AboutUs,
@@ -18,4 +19,5 @@ export {
   Intro,
   Cases,
   Paketter,
+  Otzyv
 };

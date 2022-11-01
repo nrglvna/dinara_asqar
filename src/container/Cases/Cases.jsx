@@ -9,9 +9,9 @@ import './Cases.css';
 
 const Cases = () => (
   
-  <div className='app_about_me_container'> 
+  <div className='app_about_me_container' id='cases'> 
     
-    <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+    <Swiper navigation={true} modules={[Navigation]} className="mySwiper_cases">
       <h2  >КЕЙСТЕР</h2>
       <SwiperSlide>
         <div className="app__case__data">

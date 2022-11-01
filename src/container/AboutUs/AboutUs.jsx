@@ -4,7 +4,7 @@ import './AboutUs.css';
 
 const AboutUs = () => {
   return(
-  <div className='app_about_course' id='about'>
+  <div className='app_about_course' id='course'>
 
   <h4>Ең ауқымды жоба</h4>
   <h2>"МЕГА ТАРГЕТ" ПРАКТИКАЛЫҚ КУРСЫ</h2>

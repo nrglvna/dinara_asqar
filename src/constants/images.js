@@ -25,6 +25,11 @@ import case05 from '../assets/case05.jpg';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
+import otzyv01  from '../assets/otzyv01.jpg';
+import otzyv02  from '../assets/otzyv02.jpg';
+import otzyv03  from '../assets/otzyv03.jpg';
+import otzyv04  from '../assets/otzyv04.jpg';
+import otzyv05  from '../assets/otzyv05.jpg';
 
 const images =  {
   bg,
@@ -54,6 +59,11 @@ const images =  {
   sign,
   quote,
   gericht,
+  otzyv01,
+  otzyv02,
+  otzyv03,
+  otzyv04,
+  otzyv05
 };
 
 export default images;

@@ -3,8 +3,7 @@
     padding: 1rem;
 }
 .app_about_course{
-    background: url('../../assets/bg.png');
-    background-size: cover;
+    background: var(--color-black);
     height: auto;
     padding: 2rem 2rem;
     display: auto;
@@ -64,7 +63,7 @@
 }
 .details > div{
     border-bottom: 1px solid var(--color-golden);
-    padding: 1rem;
+    padding: 1rem 1rem 1rem 0rem;
     font-size:medium;
     text-transform: uppercase;
 }
@@ -88,7 +87,7 @@
         margin: 0;
     }
     .info_for_clients_content{
-        padding: 1rem;
+        padding: 0rem;
     }
 }
 

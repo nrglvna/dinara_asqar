@@ -6,7 +6,7 @@ import './Paketter.css';
 const Paketter = () => {
   return(
 
-  <div className='app_tarif_container' >
+  <div className='app_tarif_container' id='paketter' >
     <article className='service'>
       <div className="service_head">
         <h3>STANDART пакеті</h3>

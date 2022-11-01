@@ -1,6 +1,5 @@
 .app_tarif_container{
-    background: url('../../assets/bg.png');
-    background-size: cover;
+    background: var(--color-black);
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 3rem;
@@ -59,7 +58,18 @@
   background: linear-gradient(-72deg,#dedeff, #ffffff 16%, #dedeff 21%, #ffffff 24%, #555564 27%,#dedeff 36%,#ffffff 45%,#ffffff 60%,#dedeff 72%,#ffffff 80%,#dedeff 84%, #555564 );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  background-size: 200%;
   padding: 0 0 1rem 0;
+  animation: animate 7s linear infinite;
+}
+
+@keyframes animate{
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 400%;
+    }
 }
 
 .custom_button{
