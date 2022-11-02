@@ -1,4 +1,4 @@
-import bg from '../assets/bg.png';
+import bg from '../assets/bg.jpg';
 import dinara_asqar_parallax from '../assets/dinara_asqar_parallax.jpeg';
 import logo_parallax from '../assets/parallax_logo.jpeg';
 import gallery01 from '../assets/gallery01.jpg';

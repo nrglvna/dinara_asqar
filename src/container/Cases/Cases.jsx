@@ -15,7 +15,7 @@ const Cases = () => (
         <div className="app_case_container app_wrapper_bg ">
           <div className="app_case_content">
             <h2 >Vavilon</h2>
-            <a href="">insta</a>
+            <a href="" className='p__opensans'>insta</a>
             
 
             <div className="app_case_content_box">
