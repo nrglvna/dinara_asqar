@@ -6,13 +6,35 @@
     padding: 1rem;    
     position: relative;
     overflow:visible;
-    width: 85%;
+    width: 70%;
 }
 .app_case_container img{
-    width: 150px;
+    width: 120px;
     position: absolute;
-    z-index: 1;
-    right: -20%;
-    top: 0;
-
+    right: -45%;
+    top: 10%;
 }
+
+.app_case_content_box{
+    position: relative;
+    background: rgba(255, 255, 255, 0.199);
+    margin-bottom: 0.5rem;
+    border-radius:4% ;
+    width:100%;
+    padding: 0.5rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app_case_content_box>.insta_icon{
+    color: var(--color-grey);
+    position: absolute;
+    right: -12%;
+    top:10%;
+    font-size: 45px;
+    
+}
+

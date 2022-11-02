@@ -10,13 +10,11 @@
 
 .app__bg {
   /*background: #5d4a1f;*/
-  background: url('./assets/parallax_logo.jpeg');
+  background: #2d3033;
   background-position: center;
   background-size: contain;
   background-repeat: repeat;
   background-attachment: fixed;
-  backdrop-filter: blur(0.6rem);
-  
 }
 
 .app__wrapper {
@@ -28,20 +26,22 @@
 }
 
 .app_wrapper_bg{
-  background-color: rgba(255, 255, 255, 0.267);
+  background-color: rgba(255, 255, 255, 0.071);
   position: relative;
-  backdrop-filter: blur(1rem);
+  border-radius: 5%;
+  overflow: hidden;
 }
 
-/*.app_wrapper_bg::before{
+.app_wrapper_bg::before,.app_wrapper_bg::after{
   position: absolute;
   content: '';
-  width: 100%;
+  width: 20%;
+  height: 20%;
+  background:var(--color-golden);
+  border-radius: 50%;
+  filter: blur(40px);
   
-  height: 78%;
-  background:rgba(59, 20, 20, 0.411);
-  border-radius: 30%;
-}*/
+}
 
 .app__wrapper_info {
   flex: 1;
@@ -102,9 +102,17 @@
   color: var(--color-white);
   font-weight: 400;
   letter-spacing: 0.04em;
-  text-transform: capitalize;
   line-height: 23px;
-  font-size: 16px;
+  font-size: 23px;
+}
+
+.h__opensans{
+  font-family: var(--font-alt);
+  color: var(--color-golden);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 24px;
+  font-size: 25px;
 }
 
 .headtext__cormorant {
@@ -116,8 +124,22 @@
   text-transform: capitalize;
 }
 
+.headtext__opensans {
+  font-family: var(--font-alt);
+  color: var(--color-golden);
+  font-size: 24px;
+  line-height: 83.2px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+
 .spoon__img {
   width: 45px;
+}
+
+
+.swiper-button-next,.swiper-button-prev{
+  color: transparent;
 }
 
 @media screen and (min-width: 2000px) {
@@ -176,13 +198,13 @@
   }
 
   .p__opensans {
-    font-size: 14px;
+    font-size: 24px;
   }
 }
 
 @media screen and (max-width: 450px) {
   .p__opensans {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .p__cormorant {
