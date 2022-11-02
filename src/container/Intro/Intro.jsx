@@ -3,8 +3,8 @@ import ShowMore from '../../components/ShowMore/ShowMore'
 import './Intro.css';
 
 const Intro = () => (
-  <div className="bagdarlama_container">
-    <div className='bagdarlama'>
+  <div className="bagdarlama_container app__bg">
+    <div className='bagdarlama app_wrapper_bg'>
       <h2>КУРС БАҒДАРЛАМАСЫ</h2>
       <ShowMore
         taqyryp='АЛҒАШҚЫ ҚАДАМҒА “АЛҒЫ СӨЗ”'

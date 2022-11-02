@@ -17,7 +17,7 @@ import spoon from '../assets/spoon.svg';
 import welcome from '../assets/dinara_asqar.png';
 import findus from '../assets/findus.png';
 import laurels from '../assets/laurels.png';
-import case01 from '../assets/case01.jpg';
+import case01 from '../assets/case01.png';
 import case02 from '../assets/case02.jpg';
 import case03 from '../assets/case03.jpg';
 import case04 from '../assets/case04.jpeg';

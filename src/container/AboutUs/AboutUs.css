@@ -3,7 +3,6 @@
     padding: 1rem;
 }
 .app_about_course{
-    background: var(--color-white);
     height: auto;
     padding: 2rem 2rem;
     display: auto;
@@ -18,7 +17,6 @@
 }
 
 .app_about_course_info > div{
-    background: rgb(0, 0, 0);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;

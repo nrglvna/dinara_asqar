@@ -4,26 +4,26 @@ import './AboutUs.css';
 
 const AboutUs = () => {
   return(
-  <div className='app_about_course' id='course'>
+  <div className='app_about_course app__bg' id='course'>
 
   <h4>Ең ауқымды жоба</h4>
   <h2>"МЕГА ТАРГЕТ" ПРАКТИКАЛЫҚ КУРСЫ</h2>
-    <div className='app_about_course_info'>
-      <div className='info_for_clients'>
+    <div className='app_about_course_info ' >
+      <div className='info_for_clients app_wrapper_bg' >
         <h3>Курс кімдерге арналған?</h3>
         <div className="info_for_clients_content">
           <article className='details' >
           
          <div>
           <h4><GoVerified className='details-icon'/> Жаңадан үйренгісі келетін жандарға </h4>
-          <small className='text-light'>Студенттер, үйде отырған аналар, қосымша табыс тапқысы келетін барлық жандарға қажет мамандық. 
+          <small className='p__opensans'>Студенттер, үйде отырған аналар, қосымша табыс тапқысы келетін барлық жандарға қажет мамандық. 
  ТАРГЕТОЛОГ-  БҮГІНГІ ТАҢДА ЕҢ СҰРАНЫСҚА ИЕ МАМАНДЫҚ. ТАРГЕТТІ ЖАҚСЫ ИГЕРСЕҢІЗ, СІЗ БІРДЕН ЖОБАЛАР АЛЫП, ТАБЫСТЫ ЖҰМЫСҚА КІРІСІП КЕТЕ АЛАСЫЗ.
 </small>
          </div>
           
           <div>
           <h4><GoVerified className='details-icon'/> Кәсіпкерлерге </h4>
-          <small className='text-light'>СІЗ ТАРГЕТ ҚҰРАЛЫН ПАЙДАЛАНУ АРҚЫЛЫ КӘСІБІҢІЗДІҢ АЙНАЛЫМЫН ҰЛҒАЙТУ БОЙЫНША НАҚТЫ ҚАДАМДАРЫН АЛЫП, БІРДЕН 2 ЕСЕГЕ АҚША АЙНАЛЫМЫН АРТТЫРА АЛАСЫЗ. КӘСІБІҢІЗГЕ ТОЛЫҚ АНАЛИЗ ЖАСАП, КЕЗ-КЕЛГЕН ДАҒДАРЫСҚА ДАЙЫН БОЛЫП, НАРЫҚТАН ӨЗ КЛИЕНТТЕРІҢІЗДІ ТАБАСЫЗ.
+          <small className='p__cormorant'>СІЗ ТАРГЕТ ҚҰРАЛЫН ПАЙДАЛАНУ АРҚЫЛЫ КӘСІБІҢІЗДІҢ АЙНАЛЫМЫН ҰЛҒАЙТУ БОЙЫНША НАҚТЫ ҚАДАМДАРЫН АЛЫП, БІРДЕН 2 ЕСЕГЕ АҚША АЙНАЛЫМЫН АРТТЫРА АЛАСЫЗ. КӘСІБІҢІЗГЕ ТОЛЫҚ АНАЛИЗ ЖАСАП, КЕЗ-КЕЛГЕН ДАҒДАРЫСҚА ДАЙЫН БОЛЫП, НАРЫҚТАН ӨЗ КЛИЕНТТЕРІҢІЗДІ ТАБАСЫЗ.
 </small>
          </div>
           
@@ -34,7 +34,7 @@ const AboutUs = () => {
           </article>
         </div>
       </div>
-      <div className='app_bagdarlama'>
+      <div className='app_bagdarlama app_wrapper_bg'>
       <h3>Курс неден тұрады?</h3>
         <div className="info_for_clients_content">
           <article className='details' >

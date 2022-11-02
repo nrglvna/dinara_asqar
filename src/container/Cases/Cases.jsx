@@ -8,49 +8,34 @@ import "swiper/css/navigation";
 import './Cases.css';
 
 const Cases = () => (
-  
-  <div className='app_about_me_container' id='cases'> 
-    
+  <div className='app_case app__bg section__padding' id='cases'> 
+    <h2 className='headtext__cormorant' >БІЗДІҢ КЕЙСТЕР</h2>
     <Swiper navigation={true} modules={[Navigation]} className="mySwiper_cases">
-      <h2  >КЕЙСТЕР</h2>
-      <SwiperSlide>
-        <div className="app__case__data">
-          <div className="app__case__data_img">
-            <a href="https://www.instagram.com/tv/CkU2msGjUgh/?igshid=MDJmNzVkMjY="><AiFillInstagram/></a>
-            <img src={images.case01} alt="" />
-          </div>    
-        </div>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div className="app__case__data">
-          <div className="app__case__data_img">
-            <a href="https://www.instagram.com/p/ChCEd5oDGlx/?igshid=MDJmNzVkMjY="><AiFillInstagram/></a>
-            <img src={images.case02} alt="" />
-          </div>    
-        </div>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div className="app__case__data">
-          <div className="app__case__data_img">
-            <a href="https://www.instagram.com/p/ChaQrFFs4V6/?igshid=MDJmNzVkMjY="><AiFillInstagram/></a>
-            <img src={images.case03} alt="" />
-          </div>    
-        </div>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div className="app__case__data">
-          <div className="app__case__data_img">
-            <a href="https://www.instagram.com/p/Ch901fzDbev/?igshid=YmMyMTA2M2Y="><AiFillInstagram/></a>
-            <img src={images.case04} alt="" />
-          </div>    
-        </div>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div className="app__case__data">
-          <div className="app__case__data_img">
-            <a href="https://www.instagram.com/p/ChCEQAFDm2P/?igshid=MDJmNzVkMjY="><AiFillInstagram/></a>
-            <img src={images.case05} alt="" />
-          </div>    
+      <SwiperSlide >
+        <div className="app_case_container app_wrapper_bg ">
+          <div className="app_case_content">
+            <h2 >Vavilon</h2>
+            <a href="">insta</a>
+            
+
+            <div className="app_case_content_box">
+              <p className='p__opensans'>Ссылка бойынша клик</p>
+              <h3>1217</h3>
+              <AiFillInstagram/>
+            </div>
+            <div className="app_case_content_box">
+              <p className='p__opensans'>Ссылка бойынша клик</p>
+              <h3>1217</h3>
+              <AiFillInstagram/>
+            </div>
+            <div className="app_case_content_box">
+              <p className='p__opensans'>Ссылка бойынша клик</p>
+              <h3>1217</h3>
+              <AiFillInstagram/>
+            </div>
+
+          </div>
+          <img src={images.case01} alt="" />
         </div>
       </SwiperSlide>
     </Swiper>

@@ -1,5 +1,5 @@
 .section__padding {
-  padding: 2rem 6rem;
+  padding: 1rem;
 }
 
 .flex__center {
@@ -9,7 +9,7 @@
 }
 
 .app__bg {
-  background: url('./assets/bg.png');
+  background: #5d4a1f;
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -23,6 +23,22 @@
 
   min-height: 100vh;
 }
+
+.app_wrapper_bg{
+  background-color: rgba(255, 255, 255, 0.61);
+  position: relative;
+  backdrop-filter: blur(1rem);
+}
+
+/*.app_wrapper_bg::before{
+  position: absolute;
+  content: '';
+  width: 100%;
+  
+  height: 78%;
+  background:rgba(59, 20, 20, 0.411);
+  border-radius: 30%;
+}*/
 
 .app__wrapper_info {
   flex: 1;
@@ -84,7 +100,7 @@
   font-weight: 400;
   letter-spacing: 0.04em;
   text-transform: capitalize;
-  line-height: 28px;
+  line-height: 23px;
   font-size: 16px;
 }
 

@@ -1,6 +1,5 @@
 
 .bagdarlama_container{
-    background: var(--color-black);
     height: auto;
     padding: 2rem 2rem;
     display: auto;
@@ -11,7 +10,6 @@
 }
 
 .bagdarlama_container > div{
-    background: transparent;
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid var(--color-golden);
