@@ -1,5 +1,8 @@
 .app_header{
     position: relative;
+    width:100%;
+    height: 100%;
+    overflow: hidden;
 }
 .app_header_place{
     height: 25vh;
@@ -20,8 +23,7 @@
 }
 .app_header_text>h3,.app_header_text>h4{
     font-family: var(--font-alt);
-    color: var(--color-white);
-    text-shadow: 1px 1px 1px #5d4a1f;
+    color: #2d3033;
     font-size: 24px;
 }
 .app_header_text>h2{
@@ -83,17 +85,17 @@
     display: flex;
     flex-direction: column;
     bottom: 5%;
-    left: 5%;
+    left: 0%;
     padding: 1rem;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 
 }
 
 .korsetkish_box{
     display: flex;
     flex-direction: column;
-    background: rgba(255, 253, 253, 0.26);
+    background: rgba(255, 253, 253, 0.01);
     margin-bottom: 0.5rem;
     border-radius:25px ;
     width:100%;
@@ -101,11 +103,13 @@
     align-items: center;
     justify-content: center;
     backdrop-filter: blur(1rem);
+    text-align: center;
 }
 
-.korsetkish_box> span,.korsetkish_box> p{
-    color: rgb(45,48,51);
+.korsetkish_box> p{
+    color: #2d3033;
     font-weight: 500;
+    font-size: 19px;
 }
 
 
@@ -114,7 +118,7 @@
         display: flex;
     }
     .app_header_img{
-        height: 70vh;
+        height: 65vh;
     }
     
 }

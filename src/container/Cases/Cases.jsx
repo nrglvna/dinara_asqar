@@ -17,7 +17,7 @@ const Cases = () => {
 
 
   return(
-  <div className='app_case app__bg section__padding' id='cases'> 
+  <div className='app_case app__bg' id='cases'> 
     <h2 className='headtext__opensans' >БІЗДІҢ КЕЙСТЕР</h2>
     <Swiper navigation={true} modules={[Navigation]} className="mySwiper_cases">
       <SwiperSlide className='app_wrapper_bg' >
