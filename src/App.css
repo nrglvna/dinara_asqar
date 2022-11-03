@@ -17,6 +17,15 @@
   background-attachment: fixed;
 }
 
+.app__bg2 {
+  /*background: #5d4a1f;*/
+  background: rgb(240, 237, 211);
+  background-position: center;
+  background-size: contain;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
 .app__wrapper {
   display: flex;
   justify-content: space-between;
@@ -131,6 +140,36 @@
   line-height: 50.2px;
   letter-spacing: 0.04em;
 }
+
+.headtext__roboto {
+  font-family: var(--font-roboto);
+  color: var(--color-golden);
+  font-size: 25px;
+  line-height: 35px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.h__roboto{
+  font-family: var(--font-roboto);
+  color: var(--color-golden);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 30px;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.p__roboto {
+  font-family: var(--font-alt);
+  color: var(--color-white);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 20px;
+  font-size: 15px;
+  text-transform: lowercase;
+}
+
 
 .spoon__img {
   width: 45px;

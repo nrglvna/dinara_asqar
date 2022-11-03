@@ -1,10 +1,6 @@
 import React from 'react';
 
 import './Header.css';
-import {images} from '../../constants';
-import {SubHeading} from '../../components';
-import {FaAward} from 'react-icons/fa';
-import {FaUserFriends} from 'react-icons/fa';
 import CountUp from 'react-countup';
 
 

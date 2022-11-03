@@ -13,7 +13,7 @@ const Intro = () => {
   return(
   <div className="bagdarlama_container app__bg">
     <div className='bagdarlama app_wrapper_bg'>
-      <h2 className='headtext__opensans'>КУРС БАҒДАРЛАМАСЫ</h2>
+      <h2 className='headtext__roboto'>КУРС БАҒДАРЛАМАСЫ</h2>
       <ShowMore 
         taqyryp='АЛҒАШҚЫ ҚАДАМҒА “АЛҒЫ СӨЗ”'
         text1='Кіріспе'

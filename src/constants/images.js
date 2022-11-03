@@ -34,6 +34,10 @@ import aboutcourse01 from '../assets/firebg.png';
 import aboutcourse02 from '../assets/awardbg.png';
 import aboutcourse03 from '../assets/moneybg.png';
 import aboutcourse04 from '../assets/compbg.png';
+import sostav01 from '../assets/lessonbg.png';
+import sostav02 from '../assets/camerabg.png';
+import sostav03 from '../assets/testbg.png';
+import sostav04 from '../assets/boxbg.png';
 
 const images =  {
   bg,
@@ -71,7 +75,11 @@ const images =  {
   aboutcourse01,
   aboutcourse02,
   aboutcourse03,
-  aboutcourse04
+  aboutcourse04,
+  sostav01,
+  sostav02,
+  sostav03,
+  sostav04
 };
 
 export default images;

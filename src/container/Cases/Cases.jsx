@@ -18,27 +18,27 @@ const Cases = () => {
 
   return(
   <div className='app_case app__bg' id='cases'> 
-    <h2 className='headtext__opensans' >БІЗДІҢ КЕЙСТЕР</h2>
+    <h2 className='headtext__roboto' >БІЗДІҢ КЕЙСТЕР</h2>
     <Swiper navigation={true} modules={[Navigation]} className="mySwiper_cases">
       <SwiperSlide className='app_wrapper_bg' >
         <div className="app_case_container  ">
           <div className="app_case_content">
-            <h2 className='h__opensans'>Vavilon</h2>
-            <a href="" className='p__opensans'>insta</a>
+            <h2 className='h__roboto'>Vavilon</h2>
+            <a href="" className='p__roboto'>insta</a>
             
 
             <div className="app_case_content_box" data-aos='fade-up'>
-              <p className='p__opensans'>Kлик саны</p>
+              <p className='p__roboto'>Kлик саны</p>
               <h3 className='h__opensans'>1217</h3>
               <AiFillInstagram className='insta_icon' />
             </div>
             <div className="app_case_content_box" data-aos='fade-up'>
-              <p className='p__opensans'>Клик бағасы</p>
+              <p className='p__roboto'>Клик бағасы</p>
               <h3 className='h__opensans'>0,09 $</h3>
               <AiFillInstagram className='insta_icon'/>
             </div>
             <div className="app_case_content_box" data-aos='fade-up'>
-              <p className='p__opensans'>Сатылым</p>
+              <p className='p__roboto'>Сатылым</p>
               <h3 className='h__opensans'>30 000 000</h3>
               <AiFillInstagram className='insta_icon' />
             </div>
