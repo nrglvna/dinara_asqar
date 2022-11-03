@@ -52,7 +52,7 @@ const Header = () => (
                     />
                     <p className='p__opensans'>кәсіпкерлермен жұмыс</p>
                 </div>
-                <div className="korsetkish_box" data-aos='fade-up'>
+                <div className="korsetkish_box">
                     <CountUp
                     className='counter h__opensans'
                     start={0}

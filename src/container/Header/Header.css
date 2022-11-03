@@ -2,7 +2,7 @@
     position: relative;
 }
 .app_header_place{
-    height: 20vh;
+    height: 25vh;
     display: none;
     background: rgb(240, 237, 211);
 
@@ -18,11 +18,14 @@
     justify-content: center;
     z-index: 10;
 }
-.app_header_text>h3,.app_header_text>h2,.app_header_text>h4{
+.app_header_text>h3,.app_header_text>h4{
     font-family: var(--font-alt);
     color: var(--color-white);
-    text-shadow: 2px 2px 12px #5d4a1f;
+    text-shadow: 1px 1px 1px #5d4a1f;
     font-size: 24px;
+}
+.app_header_text>h2{
+    font-family: var(--font-alt);
 }
 
 .app_header_text>h2{
@@ -79,7 +82,7 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    bottom: 15%;
+    bottom: 5%;
     left: 5%;
     padding: 1rem;
     align-items: center;
