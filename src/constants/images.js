@@ -14,12 +14,12 @@ import logo from '../assets/scope_logo.png';
 import menu from '../assets/menu.png';
 import overlaybg from '../assets/overlaybg.png';
 import spoon from '../assets/spoon.svg';
-import welcome from '../assets/dinara_asqar.png';
+import welcome from '../assets/welcome.jpg';
 import findus from '../assets/findus.png';
 import laurels from '../assets/laurels.png';
 import case01 from '../assets/case01.png';
-import case02 from '../assets/case02.jpg';
-import case03 from '../assets/case03.jpg';
+import case02 from '../assets/case02.png';
+import case03 from '../assets/case03.png';
 import case04 from '../assets/case04.jpeg';
 import case05 from '../assets/case05.jpg';
 import sign from '../assets/sign.png';
@@ -30,6 +30,10 @@ import otzyv02  from '../assets/otzyv02.jpg';
 import otzyv03  from '../assets/otzyv03.jpg';
 import otzyv04  from '../assets/otzyv04.jpg';
 import otzyv05  from '../assets/otzyv05.jpg';
+import aboutcourse01 from '../assets/firebg.png';
+import aboutcourse02 from '../assets/awardbg.png';
+import aboutcourse03 from '../assets/moneybg.png';
+import aboutcourse04 from '../assets/compbg.png';
 
 const images =  {
   bg,
@@ -63,7 +67,11 @@ const images =  {
   otzyv02,
   otzyv03,
   otzyv04,
-  otzyv05
+  otzyv05,
+  aboutcourse01,
+  aboutcourse02,
+  aboutcourse03,
+  aboutcourse04
 };
 
 export default images;

@@ -1,25 +1,25 @@
 .app_case{
-    overflow: hidden;
+    overflow: visible;
 }
 .app_case_container{
-    border-radius: 5%;
+    border-radius: 10px;
     padding: 1rem;    
     position: relative;
     overflow:visible;
     width: 70%;
 }
 .app_case_container img{
-    width: 120px;
+    width: 270px;
     position: absolute;
-    right: -45%;
-    top: 10%;
+    right: -30%;
+    top: 5%;
 }
 
 .app_case_content_box{
     position: relative;
     background: rgba(255, 255, 255, 0.199);
     margin-bottom: 0.5rem;
-    border-radius:4% ;
+    border-radius:5px ;
     width:100%;
     padding: 0.5rem;
     overflow: hidden;
@@ -38,3 +38,10 @@
     
 }
 
+@media screen and (max-width:850px) {
+    .app_case_container img{
+        right: -80%;
+
+    }
+    
+}

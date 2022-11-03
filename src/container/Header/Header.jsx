@@ -9,65 +9,70 @@ import CountUp from 'react-countup';
 
 
 const Header = () => (
-  <div className='app_header app__wrapper section__padding ' id  = 'home'>
-    <div className='app__wrapper_info'>
-      <SubHeading title= 'Жаңа мүмкіндіктерге ұмтыл'/>
-      <h1 className='app__header-h1'>
-        DINARA ASQAR
-      </h1>
-   {/*<p className='p__opensans' style={{margin:'2rem 0'}}> Some many texts</p>*/} 
-      <div className="app_about_me_cards">
-      <div className="app_about_me_card">
-        <div className="card_icon"><FaAward/></div>
-        <div className="card_content">
-        <CountUp
-          className='countup'
-          start={0}
-          end={5}
-          duration={6}
-          useEasing={true}
-          useGrouping={true}
-          separator=" "
-          decimals={0}
-          decimal=""
-          prefix="+ "
-          suffix=" "
-         />
-          <p>тәжірибе</p>
+    <div className='app_header' id  = 'home'>
+        <div className="app_header_place"></div>
+        
+        <div className="app_header_text">
+            <h3>DINARA ASQAR</h3>
+            <h2>SCOPE </h2>
+            <h2>SCHOOL</h2>
+            <h4>таргетологтар мектебінің негізін қалаушысы</h4>
         </div>
-      </div>
-      
-      <div className="app_about_me_card">
-        <div className="card_icon"><FaUserFriends/></div>
-        <div className="card_content">
-        <CountUp
-          className='countup'
-          start={0}
-          end={300}
-          duration={6}
-          useEasing={true}
-          useGrouping={true}
-          separator=" "
-          decimals={0}
-          decimal=""
-          prefix="+ "
-          suffix=" "
-         />
-          <p>білім алған шәкірттер</p>
+        <div className="app_header_img">
+            <div className="header_korsetkish">
+                <div className="korsetkish_box" data-aos='fade-up'>
+                    <CountUp
+                    className='counter h__opensans'
+                    start={0}
+                    end={5}
+                    duration={6}
+                    useEasing={true}
+                    useGrouping={true}
+                    separator=" "
+                    decimals={0}
+                    decimal=""
+                    prefix="+ "
+                    suffix=" "
+                    />
+                    <p className='p__opensans'>жылдық тәжірибе</p>
+                </div>
+                <div className="korsetkish_box" data-aos='fade-up'>
+                    <CountUp
+                    className='counter h__opensans'
+                    start={0}
+                    end={1829}
+                    duration={6}
+                    useEasing={true}
+                    useGrouping={true}
+                    separator=" "
+                    decimals={0}
+                    decimal=""
+                    prefix="+ "
+                    suffix=" "
+                    />
+                    <p className='p__opensans'>кәсіпкерлермен жұмыс</p>
+                </div>
+                <div className="korsetkish_box" data-aos='fade-up'>
+                    <CountUp
+                    className='counter h__opensans'
+                    start={0}
+                    end={300}
+                    duration={6}
+                    useEasing={true}
+                    useGrouping={true}
+                    separator=" "
+                    decimals={0}
+                    decimal=""
+                    prefix="+ "
+                    suffix=" "
+                    />
+                    <p className='p__opensans'>1 жылда даярланған кәсіби таргетологтар</p>
+                </div>
+            </div>
         </div>
-      </div>
 
     </div>
-      {/*<div className='app_wrapper_buttons'>
-       <button type='button' className='custom__button'>Instagram</button>
-       <button type='button' className='custom__button'>Whatsup</button>
-</div>*/}
-    </div>
-    <div className='app__wrapper_img'>
-      <img src={images.welcome} alt="d.a" />
-    </div>
-    
-  </div>
-);
-
-export default Header;
+  );
+  
+  export default Header;
+  

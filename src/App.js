@@ -9,11 +9,12 @@ const App = () => (
   <div>
     <Navbar />
     <Header />
+    <Cases />
     <AboutUs />
     <Intro />
     <Paketter />
     <Chef />
-    <Cases />
+    
     <Gallery />
     <Slider_photo/>
     <Video/>

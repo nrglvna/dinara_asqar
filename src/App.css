@@ -128,9 +128,8 @@
   font-family: var(--font-alt);
   color: var(--color-golden);
   font-size: 24px;
-  line-height: 83.2px;
+  line-height: 50.2px;
   letter-spacing: 0.04em;
-  text-transform: capitalize;
 }
 
 .spoon__img {
@@ -139,7 +138,9 @@
 
 
 .swiper-button-next,.swiper-button-prev{
-  color: transparent;
+  color: rgba(255, 255, 255, 0.397);
+  width: 10px;
+  height: 20px;
 }
 
 @media screen and (min-width: 2000px) {
@@ -204,7 +205,7 @@
 
 @media screen and (max-width: 450px) {
   .p__opensans {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .p__cormorant {

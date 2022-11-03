@@ -1,12 +1,20 @@
 import React from 'react';
 import ShowMore from '../../components/ShowMore/ShowMore'
 import './Intro.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
-const Intro = () => (
+const Intro = () => {
+  useEffect(()=>{
+    AOS.init({duration:2000});
+  },[])
+
+  return(
   <div className="bagdarlama_container app__bg">
     <div className='bagdarlama app_wrapper_bg'>
-      <h2>КУРС БАҒДАРЛАМАСЫ</h2>
-      <ShowMore
+      <h2 className='headtext__opensans'>КУРС БАҒДАРЛАМАСЫ</h2>
+      <ShowMore 
         taqyryp='АЛҒАШҚЫ ҚАДАМҒА “АЛҒЫ СӨЗ”'
         text1='Кіріспе'
         text2='Таргет және тың идея'
@@ -24,7 +32,7 @@ const Intro = () => (
         text5='Конкуренттерді зерттеуге арналған сервистер'
       />
       <ShowMore
-        taqyryp='3-ші модуль:ТҮБІНЕН ТҮСІНЕЙІК'
+        taqyryp='3-ші модуль: ТҮБІНЕН ТҮСІНЕЙІК'
         text1='Жеке парақша+ Настройка'
         text2='Жаңа версиядағы Бизнес парақша+ Настройка'
         text3='Ads manager + Настройка'
@@ -68,7 +76,7 @@ const Intro = () => (
         text8='Холст арқылы реклама жіберу'
       />
       <ShowMore
-        taqyryp='7-шы модуль:КОНВЕРЦИЯ'
+        taqyryp='7-ші модуль: КОНВЕРЦИЯ'
         text1='Пиксель туралы түсінік'
         text2='Пиксельді практикада қолдану'
         text3='Сайт құру және жұмыс жасау структурасы'
@@ -130,6 +138,7 @@ const Intro = () => (
 
     </div>
   </div>
-);
+  )
+}
 
 export default Intro;

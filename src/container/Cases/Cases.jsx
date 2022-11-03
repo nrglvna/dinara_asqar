@@ -69,7 +69,7 @@ const Cases = () => {
               <AiFillInstagram className='insta_icon' />
             </div>
           </div>
-          <img src={images.case01} alt="" />
+          <img src={images.case02} alt="" />
         </div>
       </SwiperSlide>
       <SwiperSlide className='app_wrapper_bg' >
@@ -95,7 +95,7 @@ const Cases = () => {
               <AiFillInstagram className='insta_icon' />
             </div>
           </div>
-          <img src={images.case01} alt="" />
+          <img src={images.case03} alt="" />
         </div>
       </SwiperSlide>
     </Swiper>
