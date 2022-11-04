@@ -1,20 +1,26 @@
 .app_tarif_container{
-    background: var(--color-black);
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 3rem;
-    color: var(--color-golden);
     display: auto;
-    
     padding: 2rem 2rem;
-    
+    position: relative;
+    overflow: hidden;
+}
+
+.app_tarif_container::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: url('../../assets/pricebg.png');
+    background-size: contain;
+    background-repeat: repeat;
 }
 
 .service{
-    background: rgba(129, 127, 127, 0.164);
-    border-radius: 0 0 2rem 2rem;
-    border: 1px solid;
-    transition: 1s;
+    border-radius: 25px;
+    backdrop-filter: blur(2rem);
 }
 .service:hover{
     background: transparent;
@@ -23,25 +29,29 @@
 }
 
 .service_head{
+    color: var(--color-white);
     padding: 2rem;
     border-radius: 0 0 2rem 2rem;
     box-shadow: 0 2rem 1rem rgba(0,0,0,0.1);
     background:radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
     radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
-    color: var(--color-crimson);
+    
     text-align: center;
 }
 
 .service_list{
     padding: 2rem;
     list-style: none;
-
 }
 .service_list li{
     display:flex;
     gap: 1rem;
     margin:0.8rem ;
-
+    color: var(--color-white);
+    font-family: var(--font-roboto);
+    text-transform: uppercase;
+    line-height: 20px;
+    font-size: 15px;
 }
 .service_button{
     position: relative;
@@ -53,7 +63,7 @@
 }
 
 .service_button>h1{
-  font-weight: bold;
+  font-family: var(--font-roboto);
   font-size: xx-large;
   background: linear-gradient(-72deg,#dedeff, #ffffff 16%, #dedeff 21%, #ffffff 24%, #555564 27%,#dedeff 36%,#ffffff 45%,#ffffff 60%,#dedeff 72%,#ffffff 80%,#dedeff 84%, #555564 );
   -webkit-text-fill-color: transparent;
@@ -73,20 +83,46 @@
 }
 
 .custom_button{
+    font-family: var(--font-roboto);
     text-decoration: none;
     color: var(--color-white);
     padding: 1rem 2rem;
-    border-radius: 1rem;
+    margin: 0.5rem;
+    border-radius: 25px;
   /*  overflow: hidden;*/
   background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
-  radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);;
-    border-radius: 5%;
+  radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
     box-shadow: 0 0 0 0 var(--color-golden) , 0 0 0 0 var(--color-white);
+}
+
+.custom_button:nth-child(3){
+    background: var(--color-white);
+    color: rgba(211, 37, 37, 0.863);
+    position: relative;
+    text-align: end;
+}
+
+.custom_button:nth-child(3)::before{
+    content: '';
+    position: absolute;
+    z-index: 6;
+    height:100%;
+    left: -9%;
+    top: 0%;
+    width: 25%;
+    background: url('../../assets/kaspilogo.png');
+    background-size: contain;
+    border-radius: 50%;
 }
 
 .service_unlisted{
     text-decoration: dashed;
     color: var(--color-gray);
+}
+
+.last_word{
+    text-align: center;
+    margin: 0.5rem;
 }
 
 

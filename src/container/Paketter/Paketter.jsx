@@ -6,15 +6,15 @@ import './Paketter.css';
 const Paketter = () => {
   return(
 
-  <div className='app_tarif_container' id='paketter' >
-    <article className='service'>
+  <div className='app_tarif_container app__bg' id='paketter' >
+    <article className='service app_wrapper_bg' data-aos='fade-left'>
       <div className="service_head">
-        <h3>STANDART пакеті</h3>
+        <h3 className='headtext__roboto'>STANDART пакеті</h3>
       </div>
       <ul className="service_list">
         <li>
           <BiCheck className="service_list-icon"/>
-          <p >Алғашқы қадамға “Алғы сөз”</p>
+          <p  >Алғашқы қадамға “Алғы сөз”</p>
         </li>
         <li>
           <BiCheck className="service_list-icon"/>
@@ -63,15 +63,18 @@ const Paketter = () => {
         </li>
       </ul>
       <div className="service_button">
-      <h1> 79 000 ₸ </h1>
-        <a href='https://wa.me/77751948917?text=Сәлеметсізбе!%20 МЕГА%20 Таргет%20курсының%20 СТАНДАРТ%20пакетін%20 сатып%20алғым%20келеді' className='custom_button'>ҚАТЫСАМЫН</a></div>
+        <h1> 79 000 ₸ </h1>
+        <a href='https://wa.me/77711849594?text=Сәлеметсізбе!%20 МЕГА%20 Таргет%20курсының%20 СТАНДАРТ%20пакетін%20 сатып%20алғым%20келеді' className='custom_button'>ҚАТЫСАМЫН</a>
+        <a href='https://wa.me/77711849594?text=Сәлеметсізбе!%20 МЕГА%20 Таргет%20курсының%20 СТАНДАРТ%20пакетін%20БӨЛІП%20ТӨЛЕУ%20арқылы%20алғым%20келеді' className='custom_button'>БӨЛІП ТӨЛЕЙМІН</a>
+      </div>
+      <p className='last_word p__roboto'>0 • 0 • 24 айға бөліп төлегенде</p>
     </article>
 
 
 
-    <article className='service'>
+    <article className='service app_wrapper_bg' data-aos='fade-left'>
       <div className="service_head">
-        <h3>PREMUIM пакеті</h3>
+        <h3 className='headtext__roboto'>PREMUIM пакеті</h3>
       </div>
       <ul className="service_list">
       <li>
@@ -127,13 +130,15 @@ const Paketter = () => {
       </ul>
       <div className="service_button">
         <h1> 120 000 ₸ </h1>
-        <a href='https://wa.me/77751948917?text=Сәлеметсізбе!%20 МЕГА%20 Таргет%20курсының%20ПРЕМИУМ%20пакетін%20 сатып%20алғым%20келеді' className='custom_button'>ҚАТЫСАМЫН</a>
+        <a href='https://wa.me/77711849594?text=Сәлеметсізбе!%20 МЕГА%20 Таргет%20курсының%20 СТАНДАРТ%20пакетін%20 сатып%20алғым%20келеді' className='custom_button'>ҚАТЫСАМЫН</a>
+        <a href='https://wa.me/77711849594?text=Сәлеметсізбе!%20 МЕГА%20 Таргет%20курсының%20 СТАНДАРТ%20пакетін%20БӨЛІП%20ТӨЛЕУ%20арқылы%20алғым%20келеді' className='custom_button'>БӨЛІП ТӨЛЕЙМІН</a>
       </div>
+      <p className='last_word p__roboto'>0 • 0 • 24 айға бөліп төлегенде</p>
     </article>
 
-    <article className='service'>
+    <article className='service app_wrapper_bg' data-aos='fade-left'>
       <div className="service_head">
-        <h3>VIP пакеті</h3>
+        <h3 className='headtext__roboto'>VIP пакеті</h3>
       </div>
       <ul className="service_list">
       <li>
@@ -189,10 +194,11 @@ const Paketter = () => {
       </ul>
       <div className="service_button">
       <h1> 180 000 ₸ </h1>
-        <a href='https://wa.me/77751948917?text=Сәлеметсізбе!%20 МЕГА%20 Таргет%20курсының%20ВИП%20пакетін%20 сатып%20алғым%20келеді' className='custom_button'>ҚАТЫСАМЫН</a></div>
+      <a href='https://wa.me/77711849594?text=Сәлеметсізбе!%20 МЕГА%20 Таргет%20курсының%20 СТАНДАРТ%20пакетін%20 сатып%20алғым%20келеді' className='custom_button'>ҚАТЫСАМЫН</a>
+        <a href='https://wa.me/77711849594?text=Сәлеметсізбе!%20 МЕГА%20 Таргет%20курсының%20 СТАНДАРТ%20пакетін%20БӨЛІП%20ТӨЛЕУ%20арқылы%20алғым%20келеді' className='custom_button'>БӨЛІП ТӨЛЕЙМІН</a></div>
       
     </article>
-
+    <p className='last_word p__roboto'>0 • 0 • 24 айға бөліп төлегенде</p>
   </div>
   )
 }
