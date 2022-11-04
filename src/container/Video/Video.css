@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('../../assets/bg.png');
+    background: #2d3033;
 }
 .app__video video{
     width: 100%;

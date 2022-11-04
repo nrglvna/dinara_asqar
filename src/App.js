@@ -8,20 +8,17 @@ import './App.css';
 const App = () => (
   <div>
   <Navbar />
-   <Header />
+  <Header />
   <Cases />
-   <AboutUs />
-   <Chef />
-
-    <Intro />
-    <Paketter />
- 
-    
-    <Gallery />
-    <Slider_photo/>
-    <Video/>
-    <Otzyv/>
-    <Footer />
+  <AboutUs />
+  <Chef />
+  <Intro />
+  <Paketter />
+  <Gallery />
+  <Otzyv/>
+  <Slider_photo/>
+  <Video/>
+  <Footer />
   </div>
 );
 

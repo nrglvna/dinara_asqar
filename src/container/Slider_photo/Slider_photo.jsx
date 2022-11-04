@@ -21,10 +21,10 @@ const Slider_photo = () => {
   }
 
   return(
-    <div className="app__gallery flex__center">
+    <div className="app__gallery app__bg flex__center">
       <div className="app__gallery-content">
-        <h4 className='headtext__cormorant'>СЕРТИФИКАТТАУ КЕШІ</h4>
-        <a href='https://instagram.com/dinara_asqar.kz?igshid=YmMyMTA2M2Y=' className='custom__button' >Тағы көру</a>
+        <h4 className='headtext__roboto'>СЕРТИФИКАТТАУ КЕШІ</h4>
+        <a href='https://instagram.com/dinara_asqar.kz?igshid=YmMyMTA2M2Y=' className='app_wrapper_bg h__roboto' >Тағы көру</a>
       </div>
 
       <div className="app__gallery-images">

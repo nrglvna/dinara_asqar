@@ -21,7 +21,7 @@ const Navbar = () => {
       <li className='p__opensans'><a href="#footer">Байланысу</a></li>
     </ul>
     <div className='app_navbar-sign'>
-      <a href='https://wa.me/77751948917?text=Сәлеметсізбе!%20 МЕГА%20 Таргет%20курсын%20сатып%20алғым%20келеді' className='p__opensans '>Курсқа тіркелу</a>
+      <a href='https://wa.me/77711849594?text=Сәлеметсізбе!%20 МЕГА%20 Таргет%20курсын%20сатып%20алғым%20келеді' className='p__opensans '>Курсқа тіркелу</a>
     </div>
     <div className='app_navbar-smallscreen' >
       <GiHamburgerMenu color='#ffff' fontSize={27} onClick={()=>setToggleMenu(true)}/>
