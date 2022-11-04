@@ -124,6 +124,15 @@
     text-align: center;
     margin: 0.5rem;
 }
+.last_number{
+    text-align: center;
+    margin: 0.5rem;
+    color: rgba(211, 37, 37, 0.863);
+    font-family: var(--font-roboto);
+    font-size: 22px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 10px white;
+}
 
 
 @media screen and (max-width: 1024px) {

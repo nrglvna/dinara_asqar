@@ -5,7 +5,7 @@ import './Chef.css';
 
 const Chef = () => (
   <div className='app_about_sostav app__bg2 '>
-    <h2 className='headtext__roboto'>Курс неден тұрады</h2>
+    <h2 className='headtext__roboto'>Курс неден тұрады?</h2>
 
     <div className="boxes" data-aos='fade-left'>
       <img src={images.sostav01} alt="" />
