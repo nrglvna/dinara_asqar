@@ -25,7 +25,7 @@ const Cases = () => {
         <div className="app_case_container  ">
           <div className="app_case_content">
             <h2 className='h__roboto'>ВАВИЛОН АҚТӨБЕ</h2>
-            <a href="" className='p__opensans'>vavilon_aktobe</a>
+            <a href="" className='p__opensans'>@vavilon_aktobe</a>
             
 
             <div className="app_case_content_box" data-aos='fade-up'>
@@ -51,7 +51,7 @@ const Cases = () => {
         <div className="app_case_container  ">
           <div className="app_case_content">
             <h2 className='h__opensans'>АСТАУ</h2>
-            <a href="" className='p__opensans'>aigerim.malikqyzy</a>
+            <a href="" className='p__opensans'>@aigerim.malikqyzy</a>
             
 
             <div className="app_case_content_box" data-aos='fade-left' data-aos-delay="2500">
@@ -77,7 +77,7 @@ const Cases = () => {
         <div className="app_case_container  ">
           <div className="app_case_content">
             <h2 className='h__opensans'>ВОРОТА НА ЗАКАЗ</h2>
-            <a href="" className='p__opensans'>vorota.nazakaz</a>
+            <a href="" className='p__opensans'>@vorota.nazakaz</a>
             
 
             <div className="app_case_content_box" data-aos='fade-left' data-aos-delay="6500">

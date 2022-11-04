@@ -39,7 +39,7 @@ const Paketter = () => {
         </li>
         <li>
           <BiCheck className="service_list-icon"/>
-          <p > </p>
+          <p >САЙТПЕН САТУ </p>
         </li>
         <li>
           <BiCheck className="service_list-icon"/>

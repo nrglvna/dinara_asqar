@@ -25,7 +25,7 @@ const AboutUs = () => {
       <img src={images.aboutcourse03} alt="fire" />
       <div className="course_content">
         <h3 className='h__roboto'>Кәсіпкерлерге </h3>
-        <p className='p__roboto'>СІЗ ТАРГЕТ ҚҰРАЛЫН ПАЙДАЛАНУ АРҚЫЛЫ КӘСІБІҢІЗДІҢ АЙНАЛЫМЫН ҰЛҒАЙТУ БОЙЫНША НАҚТЫ ҚАДАМДАРЫН АЛЫП, БІРДЕН 2 ЕСЕГЕ АҚША АЙНАЛЫМЫН АРТТЫРА АЛАСЫЗ.</p>
+        <p className='p__roboto'>СІЗ ТАРГЕТ ҚҰРАЛЫН ПАЙДАЛАНУ АРҚЫЛЫ КӘСІБІҢІЗДІҢ АЙНАЛЫМЫН ҰЛҒАЙТУ БОЙЫНША НАҚТЫ ҚАДАМДАРЫН АЛЫП, БІРНЕШЕ ЕСЕГЕ АҚША АЙНАЛЫМЫН АРТТЫРА АЛАСЫЗ.</p>
       </div>
     </div>
     <div className="app_about_course_container " data-aos='fade-left'>
